@@ -1,0 +1,37 @@
+Write a “person” class to hold all the details.
+
+class Person{
+    constructor(name,dob,age,email,mobileNo,address)
+    {
+        this.name=name;
+        this.dob=dob;
+        this.age=age;
+        this.email=email;
+        this.mobileNo=mobileNo;
+        this.address=address;
+    }
+    getName()
+    {
+        return this.name;
+    }
+    getDob()
+    {
+        return this.dob;
+    }
+    getAge()
+    {
+        return this.age;
+    }
+    getEmail()
+    {
+        return this.email;
+    }
+    getMobileNo()
+    {
+        return this.mobileNo;
+    }
+    getAddress()
+    {
+        return this.address;
+    }
+}

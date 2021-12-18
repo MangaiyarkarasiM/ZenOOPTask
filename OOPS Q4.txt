@@ -1,0 +1,18 @@
+Write a class to calculate uber price.
+
+class UberPrice{
+    constructor(distance,time,bookingfee,basefare,pricepermin,priceperkm,demandfactor)
+    {
+        this.distance=distance;
+        this.time=time;
+        this.bookingfee=bookingfee;
+        this.basefare=basefare;
+        this.pricepermin=pricepermin;
+        this.priceperkm=priceperkm;
+        this.demandfactor=demandfactor;
+    }
+    getRideFare()
+    {
+        return basefare+bookingfee+((distance*priceperkm)+(time*pricepermin))*demandfactor;
+    }
+}
